@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="first">
+    <div class="top-left">
+      <i class="fas fa-bars"></i>
+      <img src="images/logo.svg" alt="">
+    </div>
+
+    <div class="mid-parent">
+      <div class="mid">
+      <i class="fas fa-times"></i>
+      <a href="">Collections</a>
+      <a href="">Men</a>
+      <a href="">Women</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-right">
+    <h1 class="cart-text"><i class="fas fa-shopping-cart"></i></h1>
+    <img src="images/image-avatar.png" alt="">
+  </div>
+
+  <div class="cart">
+    <h2>Cart</h2>
+    <div class="cart-table">
+      <p class="c-text">Your cart is empty</p>
+        <!-- <div class="pic-info">
+          <img src="images/image-product-1-thumbnail.jpg" alt="">
+          <div class="description ">
+            <p class="shoe-des">Fall Limited Edition Sneakers</p>
+            <span class="price">$125.00</span>
+            <span>X</span>
+            <span class="amount">3</span>
+            <span class="total">$375.00</span>
+          </div>
+          <i class="fas fa-trash"></i>
+        </div> -->
+      
+      <!-- <thead>
+        <tr> 
+          <td>
+          Product
+          </td>
+          <td>
+          Price
+          </td>
+          <td>
+          Quantity
+          </td> 
+          <td>
+          Total
+          </td>
+        </tr>
+      </thead> -->
+
+      <!-- <tbody> -->
+        <!-- <tr>
+          <td>
+            <div class="image-name">
+              <img src="images/image-product-1.jpg" class="p-image" alt="">
+              <div class="shoe-deets">
+                <h4>Jordan 1's</h4>
+                <p>Neutral</p>
+              </div>
+            </div>
+          </td>
+
+          <td class="price">
+            <p>$120</p>
+          </td>
+
+          <td>
+            <p class="quantity">3</p>
+          </td>
+
+          <td>
+            <p class="total">$240</p>
+          </td>
+
+          <td>
+            <a href="" class="fas fa-times"></a>
+          </td>
+
+        </tr> -->
+        <button class="checkoutBtn notactive">Checkout</button>
+      <!-- </tbody> -->
+    </div>
+   
+
+  </div>
+
+  </nav>
+  <hr>
+
+  <!-- ---goods--- -->
+  <section class="goods">
+    <i class="fas fa-chevron-left"></i>
+    <i class="fas fa-chevron-right"></i>
+    <div class="image">
+      <img src="images/image-product-1.jpg" class="main-pic one" alt="">
+      <img src="images/image-product-1.jpg" class="main-pic two" alt="">
+      <img src="images/image-product-1.jpg" class="main-pic third" alt="">
+      <img src="images/image-product-1.jpg" class="main-pic fourth" alt="">
+      <div class="sub-images">
+        <img src="images/image-product-1.jpg" alt="">
+        <img src="images/image-product-2.jpg" alt="">
+        <img src="images/image-product-3.jpg" alt="">
+        <img src="images/image-product-4.jpg" alt="">
+      </div>
+    </div>
+    
+
+    <div class="description">
+      <h3 class="s-c">SNEAKER COMPANY</h3>
+      <h1 class="shoe-des">Fall Limited Edition <br> Sneakers</h1>
+      <p class="f-p"> These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="pdeets">
+        <div class="p-details">
+          <span class="price"> $125.00 </span>
+          <a href="" class="percentage">50%</a>
+        </div>
+        <p class="light">$250.00</p>
+      </div>
+      <div class="c-deets">
+        <div class="counter">
+          <span class="minus">-</span>
+          <input type="text" value="0" class="amount"/>
+          <span class="plus">+</span>
+        </div>
+        <button class="c-btn"> 
+           <i class="fas fa-shopping-cart"></i> 
+          <span>Add to cart</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="lightbox">
+    <div class="image">
+      <img src="images/image-product-1.jpg" class="main-pic" alt="">
+      <div class="sub-images">
+        <img src="images/image-product-1.jpg" alt="">
+        <img src="images/image-product-2.jpg" alt="">
+        <img src="images/image-product-3.jpg" alt="">
+        <img src="images/image-product-4.jpg" alt="">
+      </div>
+      <i class="fas fa-chevron-left"></i>
+      <i class="fas fa-chevron-right"></i>
+      <i class="fas fa-times"></i>
+    </div>
+    
+  </section>
+
+
+  
+
+
+
+  
+ 
+  
+  
+
+  <!-- Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+ 
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
